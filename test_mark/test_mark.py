@@ -15,4 +15,4 @@ class TestClsMark(object):
 
     @pytest.mark.level1
     def test_3(self):
-        logging.info("I'm level1")
+        logging.info("I'm level1, pansir")
