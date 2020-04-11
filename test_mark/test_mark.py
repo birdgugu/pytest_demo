@@ -13,3 +13,6 @@ class TestClsMark(object):
     def test_2(self):
         logging.info("okk")
 
+    @pytest.mark.level1
+    def test_3(self):
+        logging.info("I'm level1")
